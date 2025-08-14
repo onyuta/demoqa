@@ -6,11 +6,11 @@ class WebElement:
         self.driver = driver
         self.locator = locator
 
-    def click(self):
-        return self.find_element().click
-
     def find_element(self):
         return self.driver.find_element(By.CSS_SELECTOR, self.locator)
+
+    def click(self):
+        self.find_element().click()
 
     def exist(self):
         try:
@@ -20,4 +20,8 @@ class WebElement:
         return True
 
     def get_text(self):
-            return str(self.find_element().text)
+        return str(self.find_element().text)
+
+    def visible(self):
+        return self.find_element().is_displayed()
+
