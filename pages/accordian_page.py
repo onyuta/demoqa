@@ -13,3 +13,4 @@ class AccordianPage(BasePage):
         self.section_two_content_second = WebElement(driver, '#section2Content > p:nth-child(2)')
         self.section_three_content_first = WebElement(driver, '#section3Content > p')
 
+
