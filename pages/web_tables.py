@@ -19,5 +19,7 @@ class WebTables(BasePage):
         self.salary = WebElement(driver, '#salary')
         self.department = WebElement(driver, '#department')
         self.btn_submit = WebElement(driver, '#submit')
-
+        self.btn_edit_4 = WebElement(driver, '#edit-record-4 > svg')
+        self.field_first_name = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[1]', 'xpath')
+        self.btn_delete_row_4 = WebElement(driver, '#delete-record-4 > svg > path')
 
