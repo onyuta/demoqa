@@ -12,5 +12,3 @@ def test_web_tables(browser):
 
     time.sleep(2)
     assert web_tables_page.no_data.exist()
-
-
