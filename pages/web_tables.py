@@ -22,4 +22,13 @@ class WebTables(BasePage):
         self.btn_edit_4 = WebElement(driver, '#edit-record-4 > svg')
         self.field_first_name = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[2]/div[4]/div/div[1]', 'xpath')
         self.btn_delete_row_4 = WebElement(driver, '#delete-record-4 > svg > path')
+        #self.headers = WebElement(driver,'rt-resizable-header -cursor-pointer', 'class')
+        self.header_1 = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/div[1]', 'xpath')
+        self.header_2 = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/div[2]','xpath')
+        self.header_3 = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/div[3]','xpath')
+        self.header_4 = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/div[4]','xpath')
+        self.header_5 = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/div[5]','xpath')
+        self.header_6 = WebElement(driver, '//*[@id="app"]/div/div/div/div[2]/div[2]/div[3]/div[1]/div[1]/div/div[6]','xpath')
+
+
 
