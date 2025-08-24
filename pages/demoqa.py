@@ -12,6 +12,7 @@ class DemoQa(BasePage):
         self.icon = WebElement(driver, '#app > header >a')
         self.btn_elements = WebElement(driver, '#app > div > div > div.home-body > div > div:nth-child(1) > div > div.card-up')
         self.footer_text = WebElement(driver, 'footer span')
+        self.cards = WebElement(driver, '#app > div > div > div.home-body > div > div')
 
 
     # def exist_icon(self):
